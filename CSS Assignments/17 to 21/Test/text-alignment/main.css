@@ -1,0 +1,28 @@
+body{
+    font-size: xxx-large;
+}
+
+#main{
+    text-align: justify;
+    width: 200px;
+
+}
+
+#main2{
+    text-align: end;
+    width: 200px;
+}
+
+#main3{
+    text-align: left;
+    direction: rtl;
+
+}
+
+#main4{
+    padding: 50px;
+}
+
+img{
+    vertical-align: top;
+}

@@ -1,0 +1,22 @@
+p{
+    width: 250px;
+}
+
+.one{
+    text-transform: uppercase;
+    text-indent: 10px;
+}
+
+.two{
+    text-transform: capitalize;
+    text-indent: 30px;
+}
+
+.three{
+    text-indent: 32px;
+}
+
+
+
+
+
