@@ -1,0 +1,42 @@
+.parent{
+    width: 800px;
+    float: left;
+    text-align: center;
+    background-color: #eeeeee ;
+}
+
+p{
+    background-color: #a6a6a6;
+    float: left;
+}
+
+.clear{
+    clear: both;
+    height: 0;
+}
+
+.full{
+    width: calc(100% - 30px);
+    margin: 0 15px;
+}
+
+.c{
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+
+
+}
+
+.c2{
+    width: calc((100% - 45px) / 2);
+    margin-left:15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.c3{
+    width: calc((100% - 75px) / 4);
+    margin:15px;
+    margin-right: 0;
+
+}

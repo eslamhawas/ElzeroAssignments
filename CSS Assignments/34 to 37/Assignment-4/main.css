@@ -1,0 +1,33 @@
+
+p {
+    background-color: #efefef;
+    padding: 15px;
+    counter-increment: p-counter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 50%;
+    margin: 20px auto auto;
+}
+
+p::before {
+    content: counter(p-counter);
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 12px;
+
+}
+
+p::after {
+    content: "";
+    width: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f44336;
+    height: 100%;
+
+}

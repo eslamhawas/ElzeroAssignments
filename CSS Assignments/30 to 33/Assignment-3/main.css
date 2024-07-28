@@ -1,0 +1,38 @@
+.unlist{
+    width:400px;
+    margin:auto;
+
+}
+
+.html,.csss,.jss{
+    background:#eee;
+    list-style-type: none;
+    padding:10px;
+
+}
+ul li{
+    margin:10px;
+}
+
+
+.html li, .csss li{
+
+    padding:10px;
+    list-style-position:outside;
+    background-color: #fff;
+    margin:4px;
+}
+
+.jss li {
+    list-style-position: inside;
+    padding:10px;
+    background:#fff;
+    margin:4px;
+}
+
+.jss ul {
+    padding: 0;
+}
+
+
+
