@@ -1,0 +1,75 @@
+.parent {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.basic, .pro {
+    width: 210px;
+    height: 260px;
+    margin: auto 15px;
+    display: inline-block;
+    line-height: 100%;
+    transform: translateY(50%);
+    background-color: #eee;
+}
+
+p {
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    top: 34px;
+    right: 13px;
+    background-color: #ddd;
+    line-height: 170px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+span {
+    width: 170px;
+    margin: 20px auto auto;
+    padding: 6px;
+    display: block;
+    background-color: #03a9f4;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+
+.basic::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: -20px;
+    background-color: #03a9f4;
+
+}
+
+.pro::before {
+    content: "Or";
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: bold;
+    border: 1px solid transparent;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    bottom: 110px;
+    left: -30px;
+
+}
+

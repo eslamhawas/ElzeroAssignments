@@ -10,13 +10,13 @@
     padding:10px;
 
 }
+
 ul li{
     margin:10px;
 }
 
 
 .html li, .csss li{
-
     padding:10px;
     list-style-position:outside;
     background-color: #fff;

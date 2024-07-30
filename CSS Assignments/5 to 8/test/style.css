@@ -1,20 +1,22 @@
 .hehe{
-    /*background-color: red;*/
-    /*background-color: rgb(250, 250, 250);*/
-    /*background-color: rgba(240, 240, 240, 0.9);*/
-    /*background-color: #eeeeee80;*/
-    background-color: #eeeeee;
+    /* background-color: red; */
 
+    /* background-color: rgb(250, 250, 250); */
+
+    /* background-color: rgba(240, 240, 240, 0.9); */
+
+    /* background-color: #eeeeee80; */
+    background-color: #eee;
     background-image: url("modern-gold-background-free-vector.jpg");
     background-repeat: repeat;
 
-    /*background-size: 100%;*/
-    /*background-size: contain;*/
-    color: #eeeeee;
+    /* background-size: 100%; */
 
+    /* background-size: contain; */
+    color: #eee;
     background-attachment: scroll;
 
-    /*background-position: left top;*/
+    /* background-position: left top; */
 
 }
 

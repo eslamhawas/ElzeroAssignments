@@ -1,0 +1,33 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 100%;
+    border-radius: 50%;
+    background-color: #eee;
+    counter-increment: div-counter;
+    box-shadow: 6px 6px 0 0 #2196f3,
+                -6px -6px 0 0 #e91e63;
+
+}
+
+div::before {
+    content: counter(div-counter);
+    color: white;
+    background-color: #000;
+    border: 1px solid black;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: -12px;
+    left: 48px;
+    border-radius: inherit;
+
+}

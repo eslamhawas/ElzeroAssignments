@@ -2,7 +2,7 @@
     width: 800px;
     float: left;
     text-align: center;
-    background-color: #eeeeee ;
+    background-color: #eee ;
 }
 
 p{
@@ -30,8 +30,8 @@ p{
 .c2{
     width: calc((100% - 45px) / 2);
     margin-left:15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .c3{
