@@ -1,0 +1,9 @@
+.ass {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238,238,238);
+}
