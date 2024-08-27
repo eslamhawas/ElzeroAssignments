@@ -1,0 +1,59 @@
+.layout {
+    background-color: #ddd;
+
+    height: 400px;
+    display: grid;
+    color: white;
+    grid-template: 50px 1fr 50px / 3fr 1fr;
+    grid-template-areas: "Header Header"
+                         "Section Aside"
+                         "Footer Footer";
+}
+
+
+
+header{
+    grid-area: Header;
+    background-color: #03a9f4;
+    padding: 15px;
+}
+
+header::before{
+    content: "Header";
+}
+
+section{
+    grid-area: Section;
+    background-color: #ff5722;
+    padding: 15px;
+}
+
+section::before{
+    content: "Section";
+    color: white;
+}
+
+
+footer{
+    grid-area: Footer;
+    background-color: #009688;
+    padding: 15px;
+}
+
+footer::before{
+    content: "Footer";
+}
+
+
+aside{
+    grid-area: Aside;
+    background-color: #607d8b;
+    padding: 15px;
+}
+
+aside::before{
+    content: "Aside";
+    color: white;
+}
+
+

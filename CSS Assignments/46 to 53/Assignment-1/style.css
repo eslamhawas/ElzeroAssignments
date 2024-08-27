@@ -6,4 +6,10 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(238,238,238);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: -5px 0 0  #03a9f4,
+                5px 0 0  #ff5722;
+    color: #ff5722;
+    font-weight: bold;
 }
