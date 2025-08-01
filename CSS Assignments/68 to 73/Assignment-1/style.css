@@ -1,0 +1,34 @@
+h1 {
+    width: 150px;
+    margin: 20px auto;
+    padding: 20px;
+    /*background-color: #ff5722;*/
+    text-align: center;
+    color: #fff;
+    position: relative;
+
+}
+
+h1::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 30px;
+    width: 70%;
+    height: 100%;
+    transform: skewY(-5deg);
+    background-color: #ff5722;
+}
+
+h1::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    right: 22px;
+    width: 70%;
+    height: 100%;
+    transform: skewY(5deg);
+    background-color: #ff5722;
+}
+
+

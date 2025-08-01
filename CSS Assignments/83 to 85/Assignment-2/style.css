@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    background-color: #eee;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+@media (max-width: 767px) {
+    .container div {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container div {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .container div {
+        margin: 10px;
+        width: calc(50% - 20px);
+        color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container div {
+        margin: 10px;
+        width: calc(25% - 20px);
+        color: green;
+    }
+}

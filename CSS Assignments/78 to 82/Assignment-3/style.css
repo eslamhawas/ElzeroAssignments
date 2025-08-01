@@ -1,0 +1,11 @@
+/*.parent .baby:only-child {*/
+/*    color: red;*/
+/*}*/
+
+/*.parent .baby:only-of-type {*/
+/*    color: red;*/
+/*}*/
+
+/*div.parent:nth-child(2) .baby {*/
+/*    color: red;*/
+/*}*/

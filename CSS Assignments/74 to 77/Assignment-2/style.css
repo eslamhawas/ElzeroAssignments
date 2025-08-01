@@ -1,0 +1,53 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:hover div {
+    animation-play-state: running;
+}
+
+.one {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #2196f3;
+    border-bottom-color: transparent;
+    animation: rotate 1s linear infinite paused forwards;
+}
+
+.two {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 5px solid #fcb000;
+    border-bottom-color: transparent;
+    animation: rotate 1.5s linear infinite paused forwards;
+
+}
+
+.three {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    border-bottom-color: transparent;
+    animation: rotate 2s linear infinite paused forwards;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

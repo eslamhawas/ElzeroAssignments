@@ -1,0 +1,15 @@
+/*.parent div:nth-child(2) {*/
+/*    color: red;*/
+/*}*/
+
+/*.child + .child {*/
+/*    color: red;*/
+/*}*/
+
+/*.parent div:not(:first-child) {*/
+/*    color: red;*/
+/*}*/
+
+.parent div:not(:first-of-type) {
+    color: red;
+}

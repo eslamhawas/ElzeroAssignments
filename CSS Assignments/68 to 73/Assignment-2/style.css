@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    width: 100px;
+    margin: 20px auto;
+    background-color: #009688;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    bottom: 0;
+    left: 3px;
+    background-color: #fff;
+    transform: skew(10deg);
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    top: 0;
+    left: -5px;
+    background-color: #009688;
+    transform: skew(10deg);
+}
+
+

@@ -1,0 +1,12 @@
+p {
+    margin: 0;
+}
+
+/*div:nth-child(2) div {*/
+/*    color: red;*/
+/*}*/
+
+/*div:not([class]) div[title="Elzero"]:not([class]):last-child {*/
+/*    color: red;*/
+/*}*/
+
